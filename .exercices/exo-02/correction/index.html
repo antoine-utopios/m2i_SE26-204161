@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice 02 - TodoList</title>
+  <script defer src="./assets/js/index.js"></script>
+</head>
+
+<body>
+  <main>
+    <h1>Exercice 02 - TodoList</h1>
+
+    <hr>
+
+    <form action="#">
+      <div>
+        <label for="todo-title">Title:</label>
+        <input type="text" id="todo-title" placeholder="Walk the doggo...">
+      </div>
+      <div>
+        <label for="todo-due-date">Due Date:</label>
+        <input type="date" id="todo-due-date">
+      </div>
+      <div>
+        <input type="checkbox" id="todo-status">
+        <label for="todo-status">isDone?</label>
+      </div>
+      <div>
+        <button id="todo-add-btn">Add Todo</button>
+      </div>
+    </form>
+
+    <hr>
+
+    <table id="todo-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Title</th>
+          <th>Due Date</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>0</td>
+          <td>Example</td>
+          <td>dd/mm/yyyy</td>
+          <td>
+            <button>DONE</button>
+            <button>DELETE</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+
+</html>
